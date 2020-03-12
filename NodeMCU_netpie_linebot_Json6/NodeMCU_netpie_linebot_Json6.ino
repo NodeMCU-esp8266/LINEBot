@@ -1,9 +1,10 @@
+/*
 // Sample code for ESP32  //
-
 #include <WiFi.h>
 #include <MicroGear.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
+*/
 
 // Sample code for ESP8266
 #include <ESP8266WiFi.h>
