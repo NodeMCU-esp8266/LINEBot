@@ -2,7 +2,7 @@
  function pubMqtt($topic,$msg) {
     $APPID= "SURASAKLINEBOT/";      //PUT NETPIE APPID Name end with "/"
     $KEY = "RP7ijqApYsXjRNhXmyG3KDTDv";          //PUT NETPIE Key ID
-    $SECRET = "RP7ijqApYsXjRNhXmyG3KDTDv";   //PUT NETPIE Secret ID 
+    $SECRET = "JkdiSqkiB9BSRkJ:RP7ijqApYsXjRNhXmyG3KDTDv";   //PUT NETPIE Secret ID 
     $Topic = "$topic";
   
     put("https://api.netpie.io/microgear/".$APPID.$Topic."?retain&auth=".$KEY.":".$SECRET,$msg);
